@@ -1,0 +1,4 @@
+theme = "air"
+baseurl = "http://example.org/"
+title = "My New Hugo Site"
+languageCode = "en-us"
