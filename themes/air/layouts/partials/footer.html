@@ -1,16 +1,4 @@
-        <div id="fh5co-started">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>{{ .Site.Params.footer.title }}</h2>
-                    <p>{{ .Site.Params.footer.description }}</p>
-                    <p><a href="{{ .Site.Params.footer.button_href }}" class="btn btn-default btn-lg">{{ .Site.Params.footer.button_text }}</a></p>
-                </div>
-            </div>
-        </div>
-        </div>
-
+        {{ partial "overlay.html" . }}
         <footer id="fh5co-footer" role="contentinfo">
             <div class="container">
                 <div class="row row-pb-md">

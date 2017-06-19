@@ -16,7 +16,7 @@ languageCode = "en-us"
 
 [[menu.main]]
     name = "Blog"
-    url = "/post/"
+    url = "/blog/"
     weight = 3
 
 [[menu.main]]
@@ -30,7 +30,10 @@ languageCode = "en-us"
     weight = 5
     button = "true"
 
-
+[blog]
+    [blog.header]
+        title = "Our Blog"
+        description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia."
 
 [params]
     [params.brand]
