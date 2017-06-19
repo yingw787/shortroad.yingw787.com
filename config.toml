@@ -24,9 +24,11 @@ languageCode = "en-us"
     url = "/about/"
     weight = 4
 
-[Signup]
+[[menu.main]]
     name = "Signup"
     url = "/signup/"
+    weight = 5
+    button = "true"
 
 [params]
 

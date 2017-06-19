@@ -69,6 +69,13 @@
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
+							{{ range .Site.Menus.main }}
+							<li>
+								<a href="{{ .URL | relURL }}">
+									{{ .Name }}
+								</a>
+							</h4>
+							{{ end }}
 							<!-- <li class="active"><a href="index.html">Home</a></li>
 							<li><a href="{{ "./portfolio" | relURL }}">Portfolio</a></li>
 							<li class="has-dropdown">
