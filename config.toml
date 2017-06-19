@@ -2,3 +2,21 @@ theme = "air"
 baseurl = "http://example.org/"
 title = "Air - Free Website Template, Free HTML5 Template by freehtml5.co"
 languageCode = "en-us"
+
+[params]
+
+    [params.brand]
+        name = "Air"
+        description = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet."
+
+    [params.address]
+        street1 = "198 West 21st Street"
+        street2 = "Suite 721"
+        city = "New York"
+        state = "NY"
+        zipcode = "10016"
+
+    [params.contact]
+        phone = "1234567890"
+        email = "info@yoursite.com"
+        website = "freehtml5.co"
