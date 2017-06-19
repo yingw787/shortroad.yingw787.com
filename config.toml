@@ -10,13 +10,13 @@ languageCode = "en-us"
     weight = 1
 
 [[menu.main]]
-    name = "Portfolio"
-    url = "/portfolio/"
+    name = "FAQ"
+    url = "/faq/"
     weight = 2
 
 [[menu.main]]
     name = "Blog"
-    url = "/blog/"
+    url = "/post/"
     weight = 3
 
 [[menu.main]]
@@ -30,8 +30,9 @@ languageCode = "en-us"
     weight = 5
     button = "true"
 
-[params]
 
+
+[params]
     [params.brand]
         name = "Air"
         description = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet."
@@ -47,3 +48,12 @@ languageCode = "en-us"
         phone = "1234567890"
         email = "info@yoursite.com"
         website = "freehtml5.co"
+
+    [params.footer]
+        title = "Hire Us!"
+        description = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet."
+        button_text = "Contact Us"
+        button_href = "/contact"
+
+    [params.copyright_statement]
+        english = "All Rights Reserved."
