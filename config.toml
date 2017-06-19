@@ -3,6 +3,31 @@ baseurl = "http://example.org/"
 title = "Air - Free Website Template, Free HTML5 Template by freehtml5.co"
 languageCode = "en-us"
 
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 2
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[Signup]
+    name = "Signup"
+    url = "/signup/"
+
 [params]
 
     [params.brand]
