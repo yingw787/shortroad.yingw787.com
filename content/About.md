@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "About Us"
 date = "2017-06-18T21:00:54-04:00"
 
 +++
