@@ -2,88 +2,38 @@
 	<div class="container">
 		<div class="services-padding">
 			<div class="row">
+				{{ range first 3 .Site.Params.feature.item }}
 				<div class="col-md-4 animate-box">
 					<div class="feature-left">
 						<span class="icon">
-							<i class="icon-hotairballoon"></i>
+							<i class="icon-{{ .icon_name }}"></i>
 						</span>
 						<div class="feature-copy">
-							<h3>Marketing</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-							<p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>
+							<h3>{{ .title }}</h3>
+							<p>{{ .details }}</p>
+							<!-- <p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p> -->
 						</div>
 					</div>
 				</div>
-
-				<div class="col-md-4 animate-box">
-					<div class="feature-left">
-						<span class="icon">
-							<i class="icon-search"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Search Engine</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-							<p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>
-						</div>
-					</div>
-
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="feature-left">
-						<span class="icon">
-							<i class="icon-wallet"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Earn Money</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-							<p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>
-						</div>
-					</div>
-				</div>
+				{{ end }}
 			</div>
 
 
 			<div class="row">
-				<div class="col-md-4 animate-box">
-
-					<div class="feature-left">
-						<span class="icon">
-							<i class="icon-wine"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Entrepreneur</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-							<p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>
-						</div>
-					</div>
-
-				</div>
-
+				{{ range after 3 .Site.Params.feature.item }}
 				<div class="col-md-4 animate-box">
 					<div class="feature-left">
 						<span class="icon">
-							<i class="icon-genius"></i>
+							<i class="icon-{{ .icon_name }}"></i>
 						</span>
 						<div class="feature-copy">
-							<h3>Stragic Plan</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-							<p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>
-						</div>
-					</div>
-
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="feature-left">
-						<span class="icon">
-							<i class="icon-chat"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Support</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-							<p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>
+							<h3>{{ .title }}</h3>
+							<p>{{ .details }}</p>
+							<!-- <p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p> -->
 						</div>
 					</div>
 				</div>
+				{{ end }}
 			</div>
 		</div>
 	</div>

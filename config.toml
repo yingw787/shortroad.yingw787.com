@@ -26,11 +26,36 @@ languageCode = "en-us"
         button_text = "View Demo"
         button_href = "signup"
 
-    [[param.feature]]
-        thing = "Hi"
+    [[params.feature.item]]
+        icon_name = "hotairballoon"
+        title = "Marketing"
+        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
 
-    [[param.feature]]
-        thing = "Hello"
+    [[params.feature.item]]
+        icon_name = "search"
+        title = "Search Engine"
+        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+
+    [[params.feature.item]]
+        icon_name = "wallet"
+        title = "Earn Money"
+        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+
+    [[params.feature.item]]
+        icon_name = "wine"
+        title = "Entrepreneur"
+        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+
+    [[params.feature.item]]
+        icon_name = "genius"
+        title = "Strategic Plan"
+        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+
+    [[params.feature.item]]
+        icon_name = "chat"
+        title = "Support"
+        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+
 
     [params.wireframe]
 
