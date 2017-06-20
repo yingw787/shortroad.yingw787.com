@@ -4,9 +4,14 @@
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
                 <br />
                 <br />
+                <br />
+                <br />
                 <h2>{{ .Title }}</h2>
                 <p>{{ .Content }}</p>
             </div>
+            {{- if eq .File.BaseFileName "signup" -}}
+            {{ partial "contact.html" . }}
+            {{- end -}}
         </div>
     </div>
 {{ partial "footer.html" . -}}

@@ -25,10 +25,9 @@ languageCode = "en-us"
     weight = 4
 
 [[menu.main]]
-    name = "Signup"
+    name = "Sign Up"
     url = "/signup/"
     weight = 5
-    button = "true"
 
 [blog]
     [blog.header]
