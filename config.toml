@@ -20,6 +20,20 @@ languageCode = "en-us"
     weight = 3
 
 [params]
+    [params.title]
+        title = "Creativity Is A Wild Mind & A Disciplined Eye"
+        subtitle = "Free html5 templates Made by freehtml5.co"
+        button_text = "View Demo"
+        button_href = "signup"
+
+    [[param.feature]]
+        thing = "Hi"
+
+    [[param.feature]]
+        thing = "Hello"
+
+    [params.wireframe]
+
     [params.contact_form]
         email_placeholder_text = "Email"
         message_placeholder_text = "Message"
