@@ -15,26 +15,17 @@ languageCode = "en-us"
     weight = 2
 
 [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 3
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 4
-
-[[menu.main]]
     name = "Sign Up"
     url = "/signup/"
-    weight = 5
-
-[blog]
-    [blog.header]
-        title = "Our Blog"
-        description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia."
+    weight = 3
 
 [params]
+    [params.contact_form]
+        email_placeholder_text = "Email"
+        message_placeholder_text = "Message"
+        submit_button_text = "Send Message"
+
+    # Brand configuration.
     [params.brand]
         name = "Air"
         description = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet."
