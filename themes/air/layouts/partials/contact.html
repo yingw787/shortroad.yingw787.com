@@ -9,25 +9,34 @@
                 <li><i class="icon-globe2"></i><a href="https://{{ .Site.Params.contact.website | relURL }}">{{ .Site.Params.contact.website }}</a></li>
             </ul>
         </div>
-        <div class="col-md-7 col-md-push-1 animate-box">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="{{ .Site.Params.contact_form.email_placeholder_text }}">
+        <form action="https://formspree.io/your@email.com" method="POST">
+            <div class="col-md-7 col-md-push-1 animate-box">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="{{ .Site.Params.contact_form.name_placeholder_text }}">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="{{ .Site.Params.contact_form.message_placeholder_text }}"></textarea>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="email" name="_replyto" class="form-control" placeholder="{{ .Site.Params.contact_form.email_placeholder_text }}">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <input type="submit" value="{{ .Site.Params.contact_form.submit_button_text }}" class="btn btn-primary">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <textarea name="message" class="form-control" id="" cols="30" rows="7" placeholder="{{ .Site.Params.contact_form.message_placeholder_text }}"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="submit" value="{{ .Site.Params.contact_form.submit_button_text }}" class="btn btn-primary">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <input type="hidden" name="_subject" value="New submission!" />
+            <input type="hidden" name="_gotcha" />
+        </form>
     </div>
     <br />
     <br />

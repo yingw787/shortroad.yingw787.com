@@ -73,6 +73,7 @@ languageCode = "en-us"
     # Text for the contact form within the contact.html partial.
     # Other text is provided via signup.md
     [params.contact_form]
+        name_placeholder_text = "Name"
         email_placeholder_text = "Email"
         message_placeholder_text = "Message"
         submit_button_text = "Send Message"
