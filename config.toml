@@ -22,9 +22,9 @@ languageCode = "en-us"
 [params]
     # Text for the title.html partial.
     [params.title]
-        title = "Creativity Is A Wild Mind & A Disciplined Eye"
-        subtitle = "Free html5 templates Made by freehtml5.co"
-        button_text = "View Demo"
+        title = "API-first tools for the value investor."
+        subtitle = "Integrate anywhere, invest with confidence."
+        button_text = "Sign Up"
         button_href = "signup"
 
     # Text for the features.html partial.
@@ -80,26 +80,26 @@ languageCode = "en-us"
 
     # Brand configuration.
     [params.brand]
-        name = "Air"
+        name = "ShortRoad"
         description = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet."
 
     [params.address]
-        street1 = "198 West 21st Street"
-        street2 = "Suite 721"
-        city = "New York"
-        state = "NY"
-        zipcode = "10016"
+        street1 = "7315 Wisconsin Avenue"
+        street2 = "Suite A113"
+        city = "Bethesda"
+        state = "MD"
+        zipcode = "20814"
 
     [params.contact]
-        phone = "1234567890"
-        email = "info@yoursite.com"
-        website = "freehtml5.co"
+        phone = "248-860-6418"
+        email = "yingw787@gmail.com"
+        website = "shortroad.yingw787.com"
 
     [params.footer]
-        title = "Hire Us!"
-        description = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet."
-        button_text = "Contact Us"
-        button_href = "/contact"
+        title = "Sign up today!"
+        description = "Be the first to hear about our initial release!"
+        button_text = "Sign Up"
+        button_href = "/signup"
 
     [params.copyright_statement]
         english = "All Rights Reserved."
