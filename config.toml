@@ -3,7 +3,7 @@ baseurl = "http://example.org/"
 title = "Air - Free Website Template, Free HTML5 Template by freehtml5.co"
 languageCode = "en-us"
 
-
+# Menu items.
 [[menu.main]]
     name = "Home"
     url = "/"
@@ -20,12 +20,14 @@ languageCode = "en-us"
     weight = 3
 
 [params]
+    # Text for the title.html partial.
     [params.title]
         title = "Creativity Is A Wild Mind & A Disciplined Eye"
         subtitle = "Free html5 templates Made by freehtml5.co"
         button_text = "View Demo"
         button_href = "signup"
 
+    # Text for the features.html partial.
     [[params.feature.item]]
         icon_name = "hotairballoon"
         title = "Marketing"
@@ -56,9 +58,20 @@ languageCode = "en-us"
         title = "Support"
         details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
 
-
+    # Text for wireframe.html partial
     [params.wireframe]
+        title = "Wireframe Connects the Underlying Conceptual Structure"
+        text1 = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts."
+        text2 = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts."
+        text3 = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts."
 
+        card_title = "Wireframe Connects the Underlying Conceptual Structure"
+        card_text = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts."
+        card_name = "Louie Jie Mahusay"
+        card_credentials = "CEO, Founder"
+
+    # Text for the contact form within the contact.html partial.
+    # Other text is provided via signup.md
     [params.contact_form]
         email_placeholder_text = "Email"
         message_placeholder_text = "Message"
