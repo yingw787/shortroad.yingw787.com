@@ -298,13 +298,13 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: scale(1.1);
 }
 
-#fh5co-header {
+#fh5co-header #fh5co-404 {
   margin-top: 275px;
   margin-bottom: 300px;
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-header {
+  #fh5co-header #fh5co-404 {
     margin-top: 125px;
   }
 }
