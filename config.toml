@@ -2,6 +2,7 @@ theme = "air"
 baseurl = "http://example.org/"
 title = "Air - Free Website Template, Free HTML5 Template by freehtml5.co"
 languageCode = "en-us"
+googleAnalytics = "UA-72514751-2"
 
 # Menu items.
 [[menu.main]]
