@@ -310,13 +310,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-404 {
-  margin-top: 275px;
+  margin-top: 300px;
   margin-bottom: 300px;
 }
 
 @media screen and (max-width: 768px) {
   #fh5co-404 {
-    margin-top: 125px;
+    margin-top: 175px;
   }
 }
 
