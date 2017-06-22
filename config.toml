@@ -22,7 +22,7 @@ languageCode = "en-us"
 [params]
     # Text for the title.html partial.
     [params.title]
-        title = "Algorithmic tools for the value investor."
+        title = "Algorithm-based tools for the value investor."
         subtitle = "Subscribe and invest with confidence."
         button_text = "Sign Up"
         button_href = "signup"
@@ -60,15 +60,17 @@ languageCode = "en-us"
 
     # Text for wireframe.html partial
     [params.wireframe]
-        title = "Wireframe Connects the Underlying Conceptual Structure"
-        text1 = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts."
-        text2 = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts."
-        text3 = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts."
+        title = "Our mission is to help you be a better investor."
+        text1 = "Today, two types of financial companies exist today: the hyper-advanced startups that use machine learning to predict the next tick of the Dow Jones, and the wealth management firm that requires a $100,000 minimum deposit and charges $400 an hour for advice."
 
-        card_title = "Wireframe Connects the Underlying Conceptual Structure"
-        card_text = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts far from the countries Vokalia and Consonantia, there live the blind texts."
-        card_name = "Louie Jie Mahusay"
-        card_credentials = "CEO, Founder"
+        text2 = "So how much of the money you invest with either of them ends up back in your own pocket?"
+
+        text3 = "We think there's a third way. You don't need the latest technology or data or mathematical models to make positive financial decisions for yourself and your loved ones. You also don't need to have a $100,000 minimum deposit. All you need is patience and insight. Our deal with you is that you provide the patience, and we'll provide the insight."
+
+        card_title = "What ShortRoad was built for: to help you"
+        card_text = "I used to read 500 pages worth of financial statements a day, trying to make sure I didn't miss anything important for my fund. With ShortRoad, all I needed to do is set my preferences in the app and wait for my phone to buzz me about a company. It really was that easy."
+        card_name = "Wilburn Preston"
+        card_credentials = "Index Fund Manager"
 
     # Text for the contact form within the contact.html partial.
     # Other text is provided via signup.md
@@ -81,7 +83,7 @@ languageCode = "en-us"
     # Brand configuration.
     [params.brand]
         name = "ShortRoad"
-        description = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet."
+        description = "Algorithm-based tools to provide value investors broad insights into today's markets, while saving time and effort in parsing financial statements."
 
     [params.address]
         street1 = "7315 Wisconsin Avenue"
