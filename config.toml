@@ -22,41 +22,41 @@ languageCode = "en-us"
 [params]
     # Text for the title.html partial.
     [params.title]
-        title = "API-first tools for the value investor."
-        subtitle = "Integrate anywhere, invest with confidence."
+        title = "Algorithmic tools for the value investor."
+        subtitle = "Subscribe and invest with confidence."
         button_text = "Sign Up"
         button_href = "signup"
 
     # Text for the features.html partial.
     [[params.feature.item]]
-        icon_name = "hotairballoon"
-        title = "Marketing"
-        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+        icon_name = "eye-blocked"
+        title = "Keep your info private"
+        details = "ShortRoad makes recommendations and lets you decide the final call. No need to hand over sensitive bank or investment account information."
 
     [[params.feature.item]]
-        icon_name = "search"
-        title = "Search Engine"
-        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+        icon_name = "home3"
+        title = "Designed for Stability"
+        details = "No need to check your stocks app every five minutes. ShortRoad chooses companies you can buy and hold in for years."
 
     [[params.feature.item]]
-        icon_name = "wallet"
-        title = "Earn Money"
-        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+        icon_name = "stats-bars"
+        title = "Analytics you can trust"
+        details = "Don't wonder what's behind the algorithm. ShortRoad will explain in plain English why it made the calls it did."
 
     [[params.feature.item]]
-        icon_name = "wine"
-        title = "Entrepreneur"
-        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+        icon_name = "mobile2"
+        title = "Platform Agnostic"
+        details = "ShortRoad is designed so you can check in through any computer, tablet, or smartphone."
 
     [[params.feature.item]]
-        icon_name = "genius"
-        title = "Strategic Plan"
-        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+        icon_name = "books"
+        title = "Trusted Practices"
+        details = "ShortRoad's algorithms are based off of the legends of value investing, such as Warren Buffett and Ben Graham."
 
     [[params.feature.item]]
-        icon_name = "chat"
-        title = "Support"
-        details = "Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit."
+        icon_name = "happy2"
+        title = "Made for You"
+        details = "ShortRoad places your happiness first, not that of your broker or your trader."
 
     # Text for wireframe.html partial
     [params.wireframe]
