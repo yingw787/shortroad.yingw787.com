@@ -23,7 +23,7 @@ We will **NEVER** ask to control any of your banking and investing accounts. We 
 
 ### How is this different from a service like Betterment?
 
-We do not target 401Ks, IRAs, rollover accounts, or the like. We target index funds, mutual funds, and long-term stock buys.
+We do not target 401Ks, IRAs, rollover accounts, or the like. Our target customers are people who would otherwise invest in index funds, mutual funds, and blue chip stocks.
 
 ### How is this different from a service like Robinhood?
 
