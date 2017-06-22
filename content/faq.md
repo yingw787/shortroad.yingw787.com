@@ -29,10 +29,16 @@ We do not target 401Ks, IRAs, rollover accounts, or the like. We target index fu
 
 We do not provide facilities to trade on our platform, and we hope we never will. Our journey is to optimize the quality of advice we give you.
 
+### Does this actually work?
+
+We trust that you will personally verify all recommendations ShortRoad provides, and all financial decisions are ultimately your responsibility. ShortRoad simply seeks to automate a lot of the analysis beforehand.
+
 ### Why should I trust you guys?
 
-Because we want to use this service that we're building out, and we intend on providing the same level of service to you as we would provide ourselves. We won't settle until ShortRoad gives us the returns we want to see in our personal portfolios.
+Because we want to use this service that we're building out, and we intend on providing the same level of service to you as we would provide ourselves. We won't settle until ShortRoad gives us recommendations for companies we want to see in our personal portfolios.
 
 ### What are you looking to charge for this service?
 
-We have not determined yet, though it would likely look something akin to **$10 per month**. We may offer additional plans if there is significant demand. If you are interested in signing up and paying for this service, please let us know what price you believe is fair and justified.
+We have not determined yet, though it would likely look something akin to **$10 per month**. This is because we're a hosted service and we use third-party APIs that charge by the month, and because we seek to provide you value for as long as you're signed up with us. We may offer additional plans if there is significant demand.
+
+If you are interested in signing up and paying for this service, but don't believe this price is reasonable, please let us know what price you believe is fair and justified. We would love your feedback.
