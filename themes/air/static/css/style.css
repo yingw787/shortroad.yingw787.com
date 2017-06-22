@@ -298,16 +298,28 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: scale(1.1);
 }
 
-#fh5co-header #fh5co-404 {
+#fh5co-header {
   margin-top: 275px;
   margin-bottom: 300px;
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-header #fh5co-404 {
+  #fh5co-header{
     margin-top: 125px;
   }
 }
+
+#fh5co-404 {
+  margin-top: 275px;
+  margin-bottom: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-404 {
+    margin-top: 125px;
+  }
+}
+
 
 #fh5co-header .display-tc,
 .fh5co-cover .display-tc {
