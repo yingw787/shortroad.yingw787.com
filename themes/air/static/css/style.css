@@ -298,6 +298,17 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: scale(1.1);
 }
 
+#fh5co-header {
+  margin-top: 275px;
+  margin-bottom: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-header {
+    margin-top: 125px;
+  }
+}
+
 #fh5co-header .display-tc,
 .fh5co-cover .display-tc {
   display: table-cell !important;
@@ -394,7 +405,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #88a1cb;
 }
 #fh5co-features .services-padding {
-  padding: 7em 0;
+  padding-top: 5em;
 }
 #fh5co-features .feature-left {
   margin-bottom: 40px;
