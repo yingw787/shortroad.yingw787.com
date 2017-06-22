@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-3 col-md-push-1 animate-box">
+        <div class="col-md-4 col-md-push-1 animate-box">
             <h3>Our Address</h3>
             <ul class="contact-info">
                 <li>
@@ -10,12 +10,12 @@
                     {{ .Site.Params.address.city }}, {{ .Site.Params.address.state }} {{ .Site.Params.address.zipcode }}
                 </li>
                 <!-- <li><i class="icon-old-phone"></i>{{ .Site.Params.contact }}</li> -->
-                <!-- <li><i class="icon-mail22"></i><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></li> -->
+                <li><i class="icon-mail22"></i><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></li>
                 <li><i class="icon-globe2"></i><a href="https://{{ .Site.Params.contact.website | relURL }}">{{ .Site.Params.contact.website }}</a></li>
             </ul>
         </div>
         <form action="https://formspree.io/your@email.com" method="POST">
-            <div class="col-md-7 col-md-push-1 animate-box">
+            <div class="col-md-6 col-md-push-1 animate-box">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
